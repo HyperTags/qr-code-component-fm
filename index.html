@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="HyperTags">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preload" href="./font/Outfit-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: OutfitBold;
+      src: url("font/Outfit-Bold.ttf")format("truetype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: OutfitRegular;
+      src: url("font/Outfit-Regular.ttf")format("truetype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      position: relative;
+    }
+
+    .container {
+      height: 100vh;
+      width: min(1440px, 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      width: 300px;
+      background-color: hsl(0, 0%, 100%);
+      padding: 10px;
+      border-radius: 18px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 280px;
+      height: auto;
+      padding: 5px;
+      border-radius: 16px;
+    }
+
+    .card h1,
+    .card p {
+      padding: 15px 10px 0;
+    }
+
+    .card h1 {
+      font-family: OutfitBold;
+      font-size: 22px;
+      line-height: 120%;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .card p {
+      font-family: OutfitRegular;
+      font-size: 15px;
+      line-height: 140%;
+      padding-bottom: 20px;
+      color: hsl(216, 15%, 48%);
+    }
+
+    .attribution {
+      font-family: OutfitRegular;
+    }
+
+    @media(max-width: 375px) {
+      .container {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="./images/image-qr-code.png" alt="QR code image">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded
+        by
+        <a href="#">HyperTags</a>.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
