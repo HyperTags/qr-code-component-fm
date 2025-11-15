@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/qr-code-component--pELIpnmbT)
+- Live Site URL: [GitHub pages](https://hypertags.github.io/qr-code-component-fm/)
 
 ## My process
 
@@ -66,8 +66,8 @@ I learned how to add a custom self-hosted font to my website using @fontface. Th
 
 ## Author
 
-- GitHub - [David Hype (HyperTags)](https://github.com/HyperTags)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/HyperTags)
+- GitHub - [@HyperTags](https://github.com/HyperTags)
+- Frontend Mentor - [@HyperTags](https://www.frontendmentor.io/profile/HyperTags)
 - LinkedIn - [David Addo](https://linkedIn.com/in/david-addo-6ba707350)
 
 
